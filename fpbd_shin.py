@@ -89,7 +89,7 @@ class Bird:
         return pygame.mask.from_surface(self.img)
     
 class Pipe:
-    GAP = 200
+    GAP = 175
     VEL = 5
     
     def __init__(self, x):
